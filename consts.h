@@ -4,7 +4,7 @@
 #include <stdint.h>
 
 
-#define CPU_FREQ                    24000000 // Hz
+#define CPU_FREQ                    32768 // Hz
 
 #define CCM_BASE                    0x01c20000
 #define R_PRCM_BASE                 0x01f01400
