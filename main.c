@@ -16,6 +16,7 @@
 #include "sys.h"
 #include "mod_msg.h"
 #include "mod_shutdown.h"
+#include "consts.h"
 
 
 

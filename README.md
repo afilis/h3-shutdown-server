@@ -1,4 +1,4 @@
-AllWinner H2+/H3 CPU shutdown (server part)
+AllWinner H2+/H3 system shutdown (server part)  
 ---
 
 No description yet.
@@ -11,8 +11,8 @@ https://github.com/openrisc/newlib/releases
   tar xf or1k-elf_gcc5.3.0_binutils2.26_newlib2.4.0_gdb7.11.tgz  
 
 2. Download and build the program:  
-  git clone https://github.com/afilis/h3-cpu-shutdown-server.git  
-  cd h3-cpu-shutdown-server  
+  git clone https://github.com/afilis/h3-shutdown-server.git  
+  cd h3-shutdown-server  
   make  
 
 Install

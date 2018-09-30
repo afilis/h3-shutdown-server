@@ -15,7 +15,7 @@
 
 
 
-#define SRAM_A2_SIZE            (48*1024)
+#define SRAM_A2_SIZE            (48 * 1024)
 #define SRAM_A2_ADDR            0x00000000 ///< for ARM use 0x00040000
 #define ARISC_CONF_SIZE         2048
 #define ARISC_CONF_ADDR         (SRAM_A2_ADDR + SRAM_A2_SIZE - ARISC_CONF_SIZE)

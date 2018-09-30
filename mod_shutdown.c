@@ -7,7 +7,8 @@
 #include "mod_msg.h"
 #include "mod_timer.h"
 #include "mod_shutdown.h"
-#include "cpux.h"
+#include "shutdown.h"
+#include "consts.h"
 
 
 
@@ -58,9 +59,7 @@ void shutdown_module_base_thread()
         if (tick > WDT_TIMEOUT)
         {
 #ifndef DEBUG
-            // shutdown CPU
-            for (int i = 0; i < 4; i++)
-                cpux_shutdown(i);
+            shutdown();
 #endif
             start_watch = 0;
         }

@@ -2,6 +2,7 @@
 #include <or1k-sprs.h>
 #include "io.h"
 #include "sys.h"
+#include "consts.h"
 
 
 
