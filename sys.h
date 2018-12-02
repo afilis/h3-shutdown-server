@@ -4,6 +4,8 @@
 #include <stdint.h>
 
 
+// export public methods
+
 void enable_caches(void);
 void reset(void);
 void handle_exception(uint32_t type, uint32_t pc, uint32_t sp);

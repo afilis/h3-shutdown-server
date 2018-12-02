@@ -1,7 +1,9 @@
 AllWinner H2+/H3 system shutdown (server part)  
 ---
 
-No description yet.
+The program is intended for prevention of overheating of Orange Pi 
+(H2+/H3 based) after switching off. Overheating usually happens if 
+you are using Armbian stretch (mainline) on it.  
 
 Build
 ---
@@ -18,7 +20,8 @@ https://github.com/openrisc/newlib/releases
 Install
 ---
 1. Copy files: arisc-fw.code, loader/* to /boot directory of a target device.  
-2. Reboot your target device.  
+2. Reboot your target device.
+Note: You should install the client part of the program too.  
 
 Info
 ---
@@ -26,4 +29,5 @@ This program based on these projects:
 https://github.com/orangecnc/h3_arisc_firmware  
 https://github.com/orangecnc/h3_arisc_api  
 https://github.com/Icenowy/h3-arisc-shutdown  
+
 
